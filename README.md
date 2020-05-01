@@ -9,6 +9,7 @@ Beinhalten musste es:
 3. password_verify()
 
 Des weiteren mit so wenig Dateien wie möglich und so Vanilla wie nötig.
-Auch habe ich hier auf HTML und CSS verzichtet... kann sich ja jeder selber Basteln.
+
+HTML und CSS hab ich hier komplett vernachlässigt.
 
 https://butschy.de
