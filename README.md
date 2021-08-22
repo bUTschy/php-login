@@ -1,7 +1,7 @@
 # php-login
 PHP Login in Simple
 
-Ich brauchte da nur mal ein neues Login System welches auch unter PHP 7.4 läuft.
+Ich brauchte da nur mal ein neues Login System welches auch unter PHP 8 läuft.
 
 Beinhalten musste es:
 1. Algorithmus Argon2id
