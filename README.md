@@ -1,15 +1,13 @@
 # php-login
-PHP Login in Simple
+PHP Login in Simple aber Sicher.
 
-Ich brauchte da nur mal ein neues Login System welches auch unter PHP 8 läuft.
+Ich brauchte da nur mal ein neues Login System für mein 4CMS welches auch unter PHP 8 läuft.
 
 Beinhalten musste es:
 1. Algorithmus Argon2id
 2. password_hash()
 3. password_verify()
 
-Des weiteren mit so wenig Dateien wie möglich und so Vanilla wie nötig.
-
-HTML und CSS hab ich hier komplett vernachlässigt.
+Die Datenbank wird via PDO Prepared Statements befragt.
 
 https://butschy.de
