@@ -6,7 +6,7 @@ echo '<h2>LOGIN</h2>';
  
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     
-    $uname  = filter_input(INPUT_POST, 'uname', FILTER_SANITIZE_STRING);
+    $uname  = filter_input(INPUT_POST, 'uname');
     $umail  = filter_input(INPUT_POST, 'umain', FILTER_SANITIZE_EMAIL);
     $upass  = filter_input(INPUT_POST, 'upass');
     
