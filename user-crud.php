@@ -9,7 +9,7 @@ $formular = TRUE;
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     
     $fehler = FALSE;
-    $uname  = filter_input(INPUT_POST, 'uname', FILTER_SANITIZE_STRING);
+    $uname  = filter_input(INPUT_POST, 'uname');
     $umail  = filter_input(INPUT_POST, 'umail', FILTER_SANITIZE_EMAIL);
     $upass  = filter_input(INPUT_POST, 'upass');
     $upass2 = filter_input(INPUT_POST, 'upass2');
